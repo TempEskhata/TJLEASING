@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Project Rules" Description="This rule set contains this project rules." ToolsVersion="15.0">
+  <Include Path="..\..\..\..\build\advanced.ruleset" Action="Default" />
+  <Rules AnalyzerId="Microsoft.CodeQuality.CSharp.Analyzers" RuleNamespace="Microsoft.CodeQuality.CSharp.Analyzers">
+    <Rule Id="CA2234" Action="Info" />
+  </Rules>
+</RuleSet>
